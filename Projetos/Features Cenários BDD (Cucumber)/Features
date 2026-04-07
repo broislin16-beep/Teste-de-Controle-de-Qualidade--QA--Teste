@@ -1,0 +1,7 @@
+Feature: Cálculo de frete
+
+Scenario: Calcular frete com CEP nacional válido
+ Given que o usuário possui itens no carrinho
+ And informa um CEP nacional válido
+ When o sistema calcula o frete
+ Then o valor do frete deve ser exibido
