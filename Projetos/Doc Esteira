@@ -1,0 +1,5 @@
+Como a Esteira Foi Criada
+
+A pipeline foi construída utilizando GitHub Actions, com execução automática em eventos de:
+Push
+Pull Request
