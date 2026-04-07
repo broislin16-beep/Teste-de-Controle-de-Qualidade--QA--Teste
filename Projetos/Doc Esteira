@@ -3,3 +3,41 @@ Como a Esteira Foi Criada
 A pipeline foi construída utilizando GitHub Actions, com execução automática em eventos de:
 Push
 Pull Request
+
+Ecommerce BDD 
+
+Documentação da Esteira Automatizada 
+
+Objetivo
+
+Garantir a qualidade do sistema:
+
+- Execução automática de testes
+- Validação de regras de negócio com BDD
+- Cobertura mínima de 75%
+- Integração contínua
+
+
+Tecnologias Utilizadas
+
+- Node.js
+- Jest (testes unitários + cobertura)
+- Cucumber (BDD)
+- GitHub  
+
+Funcionamento da Esteira
+
+A esteira é executada automaticamente sempre que ocorre:
+
+- Push na branch `main`
+- Criação de Pull Request
+
+Etapas da Pipeline
+Checkout do Código
+
+O pipeline baixa o código do repositório:
+
+```bash
+actions/checkout
+
+
